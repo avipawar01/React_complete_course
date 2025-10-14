@@ -8,14 +8,21 @@ import React from "react";
 
 
 
-function Navbar() {
+function Navbar({name}) {
     return (
         <>
             <div>
-                <h1>Avinash</h1>
+                <h1>{name}</h1>
             </div>  
 
             <div>
+                <ul>
+                    <li>Learn</li>
+                    <li>Reference</li>
+                    <li>Commuin</li>
+                    <li></li>
+                    <li></li>
+                </ul>
 
             </div>
         </>
@@ -35,3 +42,21 @@ export class Navbar2 extends React.Component {
     }
 }
 
+
+// Props In React ??
+
+
+
+function Navbar() {
+    return (
+        <div>
+            <div>
+
+            </div>
+
+            <div>
+
+            </div>
+        </div>
+    )
+}
