@@ -1,6 +1,6 @@
-import React, { useContext } from 'react';
+import React, { createContext, useContext } from 'react';
 
-const ThemeContext = React.createContext('light');
+const ThemeContext = createContext('light');
 
 function ThemeButton() {
   const theme = useContext(ThemeContext);
